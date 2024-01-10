@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    
+    <!-- Header section with the portfolio name -->
+    <header>
+        <h1>Yasen's Portfolio</h1>
+    </header>
+
+    <!-- Projects section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <!-- Individual project with title, description, and image or video -->
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+            <img src="project1.jpg" alt="Project 1 Image">
+        </div>
+
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+            
+            <!-- Video element with a source and fallback message for unsupported browsers -->
+            <video width="320" height="240" controls>
+                <source src="project2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- About Me section -->
+    <section id="about">
+        <h2>About Me</h2>
+        
+        <!-- Brief introduction about the portfolio owner -->
+        <p>Write a brief introduction about yourself here.</p>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        
+        <!-- Link to the contact page -->
+        <p>You can reach me at: <a href="contact.html"></a></p>
+    </section>
 </body>
 </html>

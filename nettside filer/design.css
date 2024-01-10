@@ -1,79 +1,59 @@
-/* Global styling for the entire body of the webpage */
-
 body {
-  font-family: 'Arial', sans-serif; /* font for the entire document */
-  margin: 0; /* remove default margin */
-  padding: 0; /* remove default padding */
-  box-sizing: border-box; /* Include padding and border in box model */
-  min-height: 100vh; /* ensure a minimum height of the viewport */
-  display: flex; /* use flexbox for layout */
-  flex-direction: column; /* arrange children elements in a column */
+  font-family: 'Arial', sans-serif; /* Set the document font */
+  margin: 0; /* Remove the default margin */
+  padding: 0; /* Remove the default padding */
+  box-sizing: border-box; /* Include padding and border in the box model */
+  min-height: 100vh; /* Ensure a minimum viewport height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange child elements in a column */
 }
-
-/* Styling for the header section, including navigation bar */
 
 header {
-  background-color: #3498db; /* background color */
-  color: #fff; /* text color */
-  padding: 10px 20px; /* padding to the header */
-  display: flex; /* using flexbox for layout */
-  align-items: center; /* align items vertically in the center */
+  background-color: #3498db; /* Set the background color */
+  color: #fff; /* Set the text color */
+  padding: 10px 20px; /* Add padding to the header */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically in the center */
 }
 
-/* Styling for the logo, including logo image */
-
 .logo {
-  display: flex; /* use of flexbox for layout */
-  align-items: center; /* align items vertically in the center */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically in the center */
 }
 
 .logo img {
-  max-width: 10%; /* maximum width for the logo image */
-  height: auto; /* maintain aspect ratio for the logo image */
+  max-width: 10%; /* Set the maximum width for the logo image */
+  height: auto; /* Maintain the aspect ratio for the logo image */
 }
 
-/* Styling for the navigation menu */
-
 nav ul {
-  list-style: none; /* remove default list styling */
+  list-style: none; /* Remove default list styling */
   display: flex;
 }
 
 nav a {
-  text-decoration: none; /* remove underline from links (______) */
-  color: #fff; /* text color for navigation links */
-  margin-right: 15px; /* add right margin to separate links */
-  transition: color 0.3s ease; /* add a smooth color transition effect */
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Set the text color for navigation links */
+  margin-right: 15px; /* Add right margin to separate links */
+  transition: color 0.3s ease; /* Add a smooth color transition effect */
 }
 
 nav a:hover {
-  color: #ffcc00; /* change text color on  mouse hover */
+  color: #ffcc00; /* Change text color on mouse hover */
 }
-
-/* Styling for the main content area */
 
 main {
-  flex-grow: 1; /* allow main content to grow and fill available space */
-  padding: 20px; /* add padding to the main content area */
+  flex-grow: 1; /* Allow main content to grow and fill the available space */
+  padding: 20px; /* Add padding to the main content area */
 }
-
-/* Styling for the introduction section */
 
 .intro {
-  text-align: center; /* center align text in the introduction section */
+  text-align: center; /* Center align text in the introduction section */
 }
-
-/* Styling for the portfolio section */
-
-.portfolio {
-  margin-top: 30px; /* add top margin to the portfolio section */
-}
-
-/* Styling for the footer section */
 
 footer {
-  background-color: #333; /* background color for the footer */
-  color: #fff; /* text color for the footer */
-  text-align: center; /* center align text in the footer */
-  padding: 10px 0; /* padding to the footer */
+  background-color: #333; /* Set the background color for the footer */
+  color: #fff; /* Set the text color for the footer */
+  text-align: center; /* Center align text in the footer */
+  padding: 10px 0; /* Add padding to the footer */
 }

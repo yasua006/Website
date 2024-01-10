@@ -1,49 +1,44 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set the font for the entire document */
+    margin: 0; /* Remove the default margin */
+    padding: 0; /* Remove the default padding */
+    background-color: #f4f4f4; /* Set the background color */
 }
 
-/* Contact Form Styles */
 .contact-form {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 20px;
-    width: 300px;
-    margin: 50px auto;
+    background-color: #fff; /* Set the background color for the contact form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Apply a subtle box shadow */
+    border-radius: 8px; /* Set the border radius */
+    padding: 20px; /* Add padding */
+    width: 300px; /* Set the width */
+    margin: 50px auto; /* Center the form horizontally */
 }
 
-/* Style for form labels */
 .contact-form label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
+    display: block; /* Display as a block element */
+    margin-bottom: 8px; /* Add margin at the bottom */
+    font-weight: bold; /* Set the font weight */
 }
 
-/* Style for form input and textarea */
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 100%; /* Set the width to 100% */
+    padding: 8px; /* Add padding */
+    margin-bottom: 16px; /* Add margin at the bottom */
+    box-sizing: border-box; /* Include padding and border in the box model */
+    border: 1px solid #ccc; /* Set the border style */
+    border-radius: 4px; /* Set the border radius */
 }
 
-/* Style for form submit button */
 .contact-form button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #007bff; /* Set the background color for the submit button */
+    color: #fff; /* Set the text color */
+    padding: 10px; /* Add padding */
+    border: none; /* Remove the border */
+    border-radius: 4px; /* Set the border radius */
+    cursor: pointer; /* Set the cursor to pointer */
 }
 
-/* Hover effect for the submit button */
 .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Change the background color on hover */
 }
