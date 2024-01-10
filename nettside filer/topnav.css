@@ -1,0 +1,62 @@
+/* Organizing (My Favourite) */
+header,
+.logo, nav ul,
+footer  {
+    display: flex;
+}
+
+header, .logo {
+    align-items: center;
+}
+
+header,
+footer {
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db; /* Set the background color */
+    padding: 10px 20px;
+    justify-content: space-between; /* Add space between the logo, and nav */
+}
+  
+.logo img {
+    max-width: 10%; /* Set the maximum width for the logo image */
+    height: auto; /* Maintain the aspect ratio for the logo image */
+}
+  
+/* Navigation Styles */
+nav ul {
+    list-style: none; /* Remove default list styling */
+}
+  
+nav a {
+    text-decoration: none; /* Remove underline as default from links */
+    color: #ddd;
+    margin-right: 15px; /* Add right margin to separate links */
+    transition: color 0.3s ease; /* Add a smooth color transition effect */
+}
+  
+nav a:hover {
+    color: #6b3010;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 1.0em;
+    flex-direction: column;
+    background-color: #333;
+    text-align: center; /* Center align text in the footer */
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2ecc71;
+}
+
+footer a:hover {
+    transform: scale(1.05); /* Scale link by 5% */
+    color: #27834d;
+}
