@@ -1,49 +1,82 @@
 body {
+    background: url("images/stunning-galaxy-elements-this-image-260nw-1717095772.avif") no-repeat; /* Prevent repeat of image */
+    background-size: cover; /* The whole page */
+    background-attachment: fixed; /* Repairing the quality of image that covers the whole page */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+header, h2 {
+    text-decoration: none;
+}
+
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
     padding: 20px;
 }
 
-h1 {
-    margin: 0;
-}
-
-#projects {
-    margin: 20px;
-}
-
-.project {
-    margin-bottom: 20px;
+/* Styles that targets all the prosjects with the img src on portfolio.html */
+img {
+    width: 500px;
+    height: auto; /* recommended */
 }
 
 h2 {
-    color: #333;
+    padding-bottom: 20px; /* Padding only to bottom */
+}
+
+#projects {
+    margin: 25px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+img, video {
+    height: auto;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Maximum Width */
     border-radius: 8px; /* border-radius for rounded corners */
+}
+
+/* Added, due to bigger size */
+#img4 {
+    width: 12.5%;
+}
+
+/* Grouping again */
+video, #about, #contact {
+    border-radius: 8px;
 }
 
 video {
     max-width: 100%;
-    height: auto;
     border: 1px solid #333; /* border for video element */
-    border-radius: 8px;
 }
 
 #about,
 #contact {
     margin: 20px;
     background-color: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 25px;
+}
+
+h2,
+#contact a {
+    color: #333;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#contact a:hover {
+    filter: brightness(2.0); /* Using simpler visible mouse hover */
+}
+
+.portfolio-link {
+    text-decoration: underline;
 }
