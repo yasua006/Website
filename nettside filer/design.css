@@ -3,17 +3,22 @@ body {
   font-family: 'Arial', sans-serif; /* Set the document font */
   margin: 0; /* Remove the default margin */
   min-height: 100vh; /* Ensure a minimum viewport height */
-  display: flex; /* Use flexbox for layout */
+  display: flex; /* Flexbox for layout */
   flex-direction: column; /* Arrange child elements in a column */
 }
 
 /* Main Content Styles */
 main {
   flex-grow: 1; /* Allow main content to grow and fill the available space */
-  padding: 20px; /* Add padding to the main content area */
+  padding: 20px; /* Padding to the main content area */
 }
 
 /* Introduction Section Styles */
 .intro {
-  text-align: center; /* Center align text in the introduction section */
+  text-align: center; /* Center align text */
+}
+
+/* new tab = no need for javascript, depends. */
+.home-link {
+  text-decoration: underline;
 }
