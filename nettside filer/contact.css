@@ -2,40 +2,40 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0; /* Remove the default margin */
-    background-color: #f4f4f4; /* Set the background color */
+    background-color: #f4f4f4;
 }
 
 /* Contact Form Styles */
 .contact-form {
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Apply a subtle box shadow, alpha = opacity = 0.1 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Apply a subtle box shadow, alpha = opacity = 0.1 */
     border-radius: 8px; /* Set the border radius */
     padding: 20px; /* Add padding */
-    width: auto; /* width to auto */
+    width: auto; /* Width to auto for device support without media queries */
     margin: 50px auto; /* Center the form horizontally usig margin */
 }
 
 /* Label Styles */
 .contact-form label {
     display: block; /* Display as a block element */
-    margin-bottom: 8px; /* Add margin at the bottom */
+    margin-bottom: 8px; /* Margin at the bottom */
     font-weight: bold; /* Set the font weight */
 }
 
 /* Input and Textarea Styles */
 .contact-form input,
 .contact-form textarea {
-    width: 100%; /* Set the width to 100% */
+    width: 100%; /* Set the width */
     padding: 8px;
     margin-bottom: 16px;
-    box-sizing: border-box; /* Include padding and border in the box model */
+    box-sizing: border-box; /* Padding and border in the box model */
     border: 1px solid #ccc; /* Set the border style */
     border-radius: 4px;
 }
 
 /* Button Styles */
 .contact-form button {
-    background-color: #007bff;
+    background-color: #16569b;
     color: #fff;
     padding: 10px;
     border: none; /* Remove the border */
@@ -45,5 +45,10 @@ body {
 
 /* Button Hover Styles */
 .contact-form button:hover {
-    background-color: #0056b3;
+    transform: scale(1.075); /* Why not a little higher */
+    background-color: #074486;
+}
+
+.contact-link {
+    text-decoration: underline;
 }
