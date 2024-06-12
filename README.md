@@ -1,7 +1,7 @@
 # Website
-My Website (school project)
+(school project)
 
 # Updates
 - Accessibility
 - Absolute Path
-- the short horror movie had to be moved to a cloud
+- The short horror movie had to be moved to a cloud
