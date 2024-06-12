@@ -1,0 +1,13 @@
+body {
+    color: #444;
+}
+#about-me {
+    padding: 5px;
+    white-space: pre-line;
+& h2 {
+    text-align: center;
+    }
+}
+.underline-link {
+    text-decoration: underline;
+}

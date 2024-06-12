@@ -1,0 +1,46 @@
+a {
+    color: #666;
+    transition: color 0.3s linear;
+}
+a:hover {
+    color: #444;
+}
+a:active {
+    color: #ccc;
+}
+#forgot-password {
+    display: block;
+}
+#log-in {
+    padding: 5px;
+    background-color: #0597F2;
+    border: none;
+    transition: filter 0.5s linear;
+}
+#log-in:hover {
+    filter: brightness(1.1);
+}
+#forgot-password, #log-in {
+    margin-bottom: 20px;
+}
+label, input {
+    display: block;
+}
+input {
+    padding: 10px;
+}
+#remember-me, #password {
+    margin-bottom: 10px;
+}
+#remember-me {
+    display: initial;
+}
+h2, #log-in-link {
+    margin-bottom: 10px;
+}
+#email, h2 {
+    margin-bottom: 37.5px;
+}
+#email, #password {
+    margin-bottom: 30px;
+}

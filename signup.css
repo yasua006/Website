@@ -1,0 +1,27 @@
+label, input {
+    display: block;
+}
+input {
+    padding: 10px;
+}
+#sign-up {
+    padding: 5px;
+    border: none;
+    background-color: #2eec71;
+    transition: filter 0.5s linear;
+}
+#sign-up:hover {
+    filter: brightness(1.25);
+}
+#sign-up, #confirm-password {
+    margin-bottom: 10px;
+}
+h2, #sign-up-link {
+    margin-bottom: 10px;
+}
+#full-name, h2 {
+    margin-bottom: 40px;
+}
+#full-name, #creation-email, #creation-password, #confirm-email, #confirm-password {
+    margin-bottom: 35px;
+}
