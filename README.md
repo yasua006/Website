@@ -4,9 +4,8 @@
 (school project)
 
 # Updates
-- Accessibility
-- Absolute Path
-- The short horror movie had to be moved to a cloud
+- Fixed absolute path
+- Organized
 
-# Bugs
+# Bugs (not really)
 - Footer
