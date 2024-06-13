@@ -1,13 +1,14 @@
 # Website
 - Accessibility (WCAG compilance)
-- Responsivness (without media queries)
+- Responsiveness (without media queries)
 - It's a school project!
 
 # Updates
+- Minor fixes
 - Fixed footer confusion for accessibility
-- Organized
-- Removed type for images, replaced with loading="lazy", fetchpriority="high"
-- 404 page
+- Organization
+- Image optimization
+- 404 error page
 
 # Bugs (front end only, no JS)
 - A button or buttons has/have a visual bug
