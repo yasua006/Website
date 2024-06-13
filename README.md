@@ -1,9 +1,10 @@
 # Website
-- accessibility (WCAG compilance)
-- responsivness (without media queries)
+- Accessibility (WCAG compilance)
+- Responsivness (without media queries)
 - It's a school project!
 
 # Updates
-- random page
+- Fixed footer confusion for accessibility
+- 
 
-# Bugs (not really)
+# Bugs (front end only, no JS)
