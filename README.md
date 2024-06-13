@@ -4,7 +4,7 @@
 (school project)
 
 # Updates
-- Removed /s for absolute path fix
+- random page
 
 # Bugs (not really)
 - Footer
