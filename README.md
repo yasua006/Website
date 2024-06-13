@@ -4,8 +4,7 @@
 (school project)
 
 # Updates
-- Fixed absolute path
-- Organized
+- Removed /s for absolute path fix
 
 # Bugs (not really)
 - Footer
