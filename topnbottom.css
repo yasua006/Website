@@ -15,8 +15,7 @@ html {
     font-size: 16px;
 }
 header,
-.logo, nav ul,
-footer {
+.logo, nav ul {
     display: flex;
 }
 header, .logo {
@@ -46,7 +45,9 @@ nav {
     }
 }
 footer {
-    flex-direction: column;
+    display: grid;
+    place-items: center;
+    align-content: center;
     text-align: center;
     background-color: #995B3F;
     padding: 10px 0;
