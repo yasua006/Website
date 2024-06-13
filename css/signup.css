@@ -9,9 +9,9 @@ input {
     border: none;
     background-color: #2eec71;
     transition: filter 0.5s linear;
-}
-#sign-up:hover {
+&:hover {
     filter: brightness(1.25);
+    }
 }
 #sign-up, #confirm-password {
     margin-bottom: 10px;

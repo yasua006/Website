@@ -25,10 +25,10 @@ header {
     background-color: #444;
     padding: 10px 20px;
     justify-content: space-between;
-}
-.logo img {
+& .logo img {
     width: 70px;
     height: auto;
+    }
 }
 nav {
 & ul {
@@ -43,22 +43,27 @@ nav {
 & a:hover {
     color: #ccc;
     }
+& a:active {
+    color: #999;
+    }
 }
 footer {
-    display: grid;
-    place-items: center;
-    align-content: center;
-    text-align: center;
     background-color: #995B3F;
     padding: 10px 0;
 & nav a {
+    display: grid;
+    place-items: center;
+    align-content: center;
     padding: 5px;
     text-decoration: none;
     color: #fff;
-    transition: transform 0.3s linear;
+    transition: filter 0.3s linear;
 }
 & nav a:hover {
-    transform: scale(1.2);
+    filter: brightness(0.85);
+    }
+& nav a:active {
+    filter: brightness(0.65);
     }
 }
 #log-in-link, #sign-up-link {

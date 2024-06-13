@@ -16,9 +16,9 @@ a:active {
     background-color: #0597F2;
     border: none;
     transition: filter 0.5s linear;
-}
-#log-in:hover {
+&:hover {
     filter: brightness(1.1);
+    }
 }
 #forgot-password, #log-in {
     margin-bottom: 20px;
