@@ -7,5 +7,7 @@
 - Fixed footer confusion for accessibility
 - Organized
 - Removed type for images, replaced with loading="lazy", fetchpriority="high"
+- 404 page
 
 # Bugs (front end only, no JS)
+- A button or buttons has/have a visual bug
