@@ -1,10 +1,9 @@
 # Website
-- accessibility (wcag compilant)
-- responsivness (without media queries (good practice))
-(school project)
+- accessibility (WCAG compilance)
+- responsivness (without media queries)
+- It's a school project!
 
 # Updates
 - random page
 
 # Bugs (not really)
-- Footer
