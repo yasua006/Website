@@ -1,4 +1,6 @@
 # Website
+- accessibility (wcag compilant)
+- responsivness (without media queries (good practice))
 (school project)
 
 # Updates
