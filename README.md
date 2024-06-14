@@ -6,9 +6,9 @@
 # Updates
 - Minor fixes
 - Fixed footer confusion for accessibility
-- Organization
+- Organization (folders)
 - Image optimization
 - 404 error page
 
 # Bugs (front end only, no JS)
-- A button or buttons has/have a visual bug
+- NONE
