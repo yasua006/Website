@@ -1,14 +1,40 @@
-# Website
-- Accessibility (WCAG compilance)
-- Responsiveness (without media queries)
-- It's a school project!
+# 🌐 Website
 
-# Updates
-- Minor fixes
-- Fixed footer confusion for accessibility
-- Organization (folders)
-- Image optimization
-- 404 error page
+Welcome to my school project website! This site is built with a focus on accessibility and responsiveness. Below, you can find more details about the project, recent updates, and the current bug status.
 
-# Bugs (front end only, no JS)
-- NONE
+## Key Features
+- **Accessibility:** Complies with WCAG standards to ensure everyone can use the site effectively.
+- **Responsiveness:** Adaptable design that works seamlessly across devices without relying on media queries.
+
+## 🚀 Updates
+- **Improved UI:** Enhanced button designs for better user interaction.
+- **Minor Fixes:** Various small adjustments and optimizations.
+- **Accessibility Fixes:** Addressed footer confusion to improve accessibility.
+- **Organized Structure:** Better folder organization for easier navigation and maintenance.
+- **Image Optimization:** Images are now optimized for a bit faster loading times.
+- **404 Error Page:** Added a custom 404 error page.
+
+## 🐞 Bugs
+- **Front End (no JS):** No known bugs at the moment!
+
+---
+
+### Technologies Used
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+
+---
+
+### 📚 Learn More
+Check out the following resources to learn more about accessibility and responsive design:
+- [WCAG Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [Responsive Design Without Media Queries](https://www.youtube.com/@KevinPowell)
+
+### 📫 Contact
+Feel free to reach out if you have any questions or feedback!
+- Email: [your.email@example.com](mailto:your.email@example.com)
+
+---
+
+### 📄 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
