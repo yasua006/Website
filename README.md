@@ -7,7 +7,6 @@ Welcome to my school project website! This site is built with a focus on accessi
 - **Responsiveness:** Adaptable design that works seamlessly across devices without relying on media queries.
 
 ## 🚀 Updates
-- **Website works now**
 - **Improved UI:** Enhanced button designs for better user interaction.
 - **Minor Fixes:** Various small adjustments and optimizations.
 - **Accessibility Fixes:** Addressed footer confusion to improve accessibility.
@@ -33,7 +32,7 @@ Check out the following resources to learn more about accessibility and responsi
 
 ### 📫 Contact
 Feel free to reach out if you have any questions or feedback!
-- Email: [your.email@example.com](mailto:your.email@example.com)
+- Email: [your.email@example.com](mailto:yasua006@osloskolen.no)
 
 ---
 
