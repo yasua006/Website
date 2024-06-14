@@ -68,4 +68,16 @@ footer {
 }
 #log-in-link, #sign-up-link {
     margin-right: 1.2rem;
+    padding: 0.5rem 1rem;
+    background-color: #5d4037;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+    cursor: pointer;
+    display: inline-block;
+}
+#log-in-link:hover, #sign-up-link:hover {
+    background-color: #3e2723;
 }
