@@ -7,6 +7,7 @@ Welcome to my school project website! This site is built with a focus on accessi
 - **Responsiveness:** Adaptable design that works seamlessly across devices without relying on media queries.
 
 ## 🚀 Updates
+- **Website works now**
 - **Improved UI:** Enhanced button designs for better user interaction.
 - **Minor Fixes:** Various small adjustments and optimizations.
 - **Accessibility Fixes:** Addressed footer confusion to improve accessibility.
