@@ -19,9 +19,6 @@ Welcome to my school project website! This site is built with a focus on accessi
 
 ---
 
-### Project Status
-![Project Status](https://img.shields.io/badge/status-active-brightgreen)
-
 ### Technologies Used
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
@@ -31,7 +28,7 @@ Welcome to my school project website! This site is built with a focus on accessi
 ### 📚 Learn More
 Check out the following resources to learn more about accessibility and responsive design:
 - [WCAG Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- [Responsive Design Without Media Queries](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/)
+- [Responsive Design Without Media Queries](https://www.youtube.com/@KevinPowell)
 
 ### 📫 Contact
 Feel free to reach out if you have any questions or feedback!
