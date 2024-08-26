@@ -7,12 +7,10 @@ Welcome to my school project website! This site is built with a focus on accessi
 - **Responsiveness:** Adaptable design that works seamlessly across devices without relying on media queries.
 
 ## 🚀 Updates
-- **Improved UI:** Enhanced button designs for better user interaction.
 - **Minor Fixes:** Various small adjustments and optimizations.
-- **Accessibility Fixes:** Addressed footer confusion to improve accessibility.
+- **Accessibility Fixes:** Added aria-labelledby and fixed header
 - **Organized Structure:** Better folder organization for easier navigation and maintenance.
-- **Image Optimization:** Images are now optimized for a bit faster loading times.
-- **404 Error Page:** Added a custom 404 error page.
+- **Removed** Login and sign up buttons.
 
 ## 🐞 Bugs
 - **Front End (no JS):** No known bugs at the moment!

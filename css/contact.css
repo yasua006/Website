@@ -3,37 +3,37 @@
     border-radius: 8px;
     padding: 20px;
     width: auto;
-    margin: 50px auto;
-& label {
+    margin: 50px auto
+}
+.contact-form label {
     display: block;
     margin-bottom: 8px;
-    font-weight: bold;
+    font-weight: bold
 }
-& input,
-& textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 4px
 }
-& button {
+.contact-form button {
     background-color: #16569b;
     color: #fff;
     padding: 10px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer
 }
-& button:hover {
+.contact-form button:hover {
     transform: scale(1.075);
-    background-color: #074486;
-    }
+    background-color: #074486
 }
 h1,p, #label-name {
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
-.underline-link {
-    text-decoration: underline;
+nav a[aria-current='page'] {
+    text-decoration: underline
 }

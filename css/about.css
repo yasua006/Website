@@ -1,0 +1,13 @@
+body {
+    color: #444
+}
+#about-me {
+    padding: 5px;
+    white-space: pre-line
+}
+#about-me h2 {
+    text-align: center
+}
+nav a[aria-current='page'] {
+    text-decoration: underline
+}

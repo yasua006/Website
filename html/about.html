@@ -4,38 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="topnbottom.css">
-    <link rel="icon" type="image/svg+xml" href="logo/logoprosjekt.svg">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/topnbottom.css">
+    <link rel="icon" type="image/svg+xml" href="/logo/logoprosjekt.svg">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <a href="/"><img src="images/logoprosjekt.avif" alt="Website logo" loading="lazy" fetchpriority="high"></a>
-    </div>
+  <div class="logo">
+    <a href="/"><img src="/images/logoprosjekt.avif" alt="Website logo" loading="lazy" fetchpriority="high"></a>
+  </div>
 
-    <nav>
-      <ul>
-        <li><a href="about" aria-label="About Me" class="underline-link">About Me</a></li>
-        <li><a href="contact" aria-label="Contact Me">Contact Me</a></li>
-        <li><a href="/" aria-label="Home">Home</a></li>
-        <li><a href="portfolio" aria-label="Portfolio">Portfolio</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="/html/about" aria-current="page" aria-label="About Me">About Me</a></li>
+      <li><a href="/html/contact" aria-label="Contact Me">Contact Me</a></li>
+      <li><a href="/" aria-label="Home">Home</a></li>
+      <li><a href="/html/portfolio" aria-label="Portfolio">Portfolio</a></li>
+    </ul>
+  </nav>
+  
+  <header>
+    <h1>About Me</h1>
   </header>
 
   <main>
-    <nav>
-      <a href="login" aria-label="Log In link that's connected to the button">
-        <button type="button" id="log-in-link" aria-label="Log In">Log In</button>
-      </a>
-      <a href="signup" aria-label="Sign Up link that's connected to the button">
-        <button type="button" id="sign-up-link" aria-label="Sign Up">Sign Up</button>
-      </a>
-    </nav>
     
-    <section id="about-me">
-      <h2>About Me</h2>
+    <section id="about-me" aria-labelledby="about-me-heading">
+      <h2 id="about-me-heading">About Me</h2>
       <ol>
         <li>
         I chose to specialize in IT during high school, making it a simple decision for me. I don’t mind what the outside of a computer looks like; all that matters to me is the inside as this enables me to optimize my PC to the maximum level. I find the fast pace at which technology and media are changing thrilling, and I believe that such a focus will equip me with the relevant skills needed in order to keep up.
@@ -44,21 +38,20 @@
         <li>
         I see Media Production as just fun but IT is my true passion. It will be easier for me to learn deeper technical skills if I do not look at things from media perspective, therefore enhancing my excitement towards these activities.
       </li>
-        It’s like working in an IT playground. This focus provides me with an adaptable and popular background, whether teaming up with tech companies in coming up with groundbreaking solutions or venturing into software development, network management as well as cybersecurity among other areas.
+        It's like working in an IT playground. This focus provides me with an adaptable and popular background, whether teaming up with tech companies in coming up with groundbreaking solutions or venturing into software development, network management as well as cybersecurity among other areas.
         <li>
         In summary, making Information Technology (IT) my area of concentration in high school while living in Norway was predicated on passion for technology and curiosity about how computers function. Consequently, by delving into those areas further down the line, discovering myriad prospects ahead of me makes me happy.
       </li>
       </ol>
-  
     </section>
   </main>
 
   <footer>
     <nav>
-      <a href="about" aria-label="About">About Me</a>
-      <a href="contact" aria-label="Contact">Contact Me</a>
+      <a href="/html/about" aria-label="About">About Me</a>
+      <a href="/html/contact" aria-label="Contact">Contact Me</a>
       <a href="/" aria-label="Home">Home</a>
-      <a href="portfolio" aria-label="Portfolio">Portfolio</a>
+      <a href="/html/portfolio" aria-label="Portfolio">Portfolio</a>
     </nav>
   </footer>
 </body>
